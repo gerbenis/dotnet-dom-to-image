@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomToImage", "DomToImage\DomToImage.csproj", "{DD734AAF-E287-4C43-988C-11C634C94332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD734AAF-E287-4C43-988C-11C634C94332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD734AAF-E287-4C43-988C-11C634C94332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD734AAF-E287-4C43-988C-11C634C94332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD734AAF-E287-4C43-988C-11C634C94332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D651D35-2EEB-49A9-AEC2-B88E8321FC62}
+	EndGlobalSection
+EndGlobal

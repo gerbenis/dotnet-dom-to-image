@@ -1,0 +1,39 @@
+﻿<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default" id="export">
+            <div class="panel-heading">
+                <h3 class="panel-title">Total fruit consumtion, grouped by gender</h3>
+            </div>
+            <div class="panel-body">
+                <div id="chart-container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <form id="export-form">
+            <div class="form-group">
+                <label for="width">Image width</label>
+                <input type="text" class="form-control" id="width" placeholder="Auto" pattern="\d*">
+            </div>
+            <div class="form-group">
+                <label for="height">Image height</label>
+                <input type="text" class="form-control" id="height" placeholder="Auto" pattern="\d*">
+            </div>
+            <div class="form-group">
+                <label for="filename">File name</label>
+                <input type="text" class="form-control" id="filename" value="screenshot.png"
+                       placeholder="Enter file name..." required>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="export-submit" class="btn btn-default">Export</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/FileSaver.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/highcharts.js"></script>
+    <script type="text/javascript" src="~/Scripts/site.js"></script>
+}
